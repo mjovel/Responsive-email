@@ -1,0 +1,357 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <title>HTML Foundations</title>
+
+        <link rel="stylesheet" href="dist/reset.css">
+        <link rel="stylesheet" href="dist/reveal.css">
+        <link rel="stylesheet" href="dist/theme/moon.css" id="theme">
+
+        <!-- Theme used for syntax highlighted code -->
+        <link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section>
+                    <section>
+                        <h1>Tools</h1>
+                    </section>
+                    <section>
+                        <h2>Code Editor</h2>
+                        <ul>
+                            <li><a href="https://code.visualstudio.com/">Visual Studio Code</a></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Email Testing</h2>
+                        <ul>
+                            <li><a href="https://www.emailonacid.com/" target="_blank">Email on Acid</a></li>
+                            <li><a href="https://www.litmus.com/" target="_blank">Litmus</a></li>
+                        </ul>
+                    </section>
+                </section>
+                <section>
+                    <h1>HTML Foundations</h1>
+                </section>
+                <section>
+                    <section>
+                        <h1>
+                            Basic Structure
+                        </h1>
+                    </section>
+                    <section>
+                        <pre><code><script type="text/template">
+                            <!DOCTYPE html>
+                            <html lang="en">
+                            <head>
+                                <meta charset="UTF-8">
+                                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                <title>Document title</title>
+                            </head>
+                            <body>
+                               Page Content 
+                            </body>
+                            </html>
+                            </script></code></pre>
+                    </section>
+                    <section>
+                        <h2>Document Type Declaration</h2>
+                        <pre><code><script type="text/template">
+                            <!DOCTYPE html>
+                        </script></code></pre>
+                        <p>The <em>document type declaraton</em> tells the browser what specification is being used by this document</p>
+                    </section>
+                    <section>
+                        <h2>html element</h2>
+                        <pre><code><script type="text/template">
+                            <html>
+                                <head>
+                                    Describes the document
+                                </head>
+                                <body>
+                                   Page content 
+                                </body>
+                            </html>
+                        </script></code></pre>
+                        <p>The html contains two main elements. The <em>head</em> contains descriptive information about the document and the <em>body</em> contains the content of the page</p>
+                    </section>
+                    <section>
+                        <h2>Head</h2>
+                        <pre><code><script type="text/template">
+                            <html>
+                                <head>
+                                    <meta charset="UTF-8">
+                                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                <title>Document title</title>
+                                </head>
+                            </html>
+                        </script></code></pre>
+                        <p>The <em>head</em> contains descriptive information about document. Includes instructions title, character encoding, scale of viewport and more</p>
+                    </section>
+                    <section>
+                        <h1>Exercise Basic Structure</h1>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>Text Markup</h1>
+                    </section>
+                    <section>
+                        <h2>Paragraph</h2>
+                        <pre><code><script type="text/template">
+                            <p>Paragraph text</p>
+                        </script></code></pre>
+                    </section>
+                    <section>
+                        <h2>Emphasis</h2>
+                        <pre><code><script type="text/template">
+                            <p>Paragraph Text with <em>empasis</em></p>
+                        </script></code></pre>
+                        <p>Paragraph Text with <em>empasis</em></p>
+                    </section>
+                    <section>
+                        <h2>Strong</h2>
+                        <pre><code><script type="text/template">
+                            <p>Paragraph Text with <strong>strong</strong></p>
+                        </script></code></pre>
+                        <p>Paragraph Text with <strong>strong</strong></p>
+                    </section>
+                    <section>
+                        <h2>Headings</h2>
+                        <pre><code><script type="text/template">
+                            <h1>heading 1</h1>
+                            <h2>heading 1</h2>
+                            <h3>heading 1</h3>
+                            <h4>heading 1</h4>
+                            <h5>heading 1</h5>
+                            <h6>heading 1</h6>
+                        </script></code></pre>
+                    </section>
+                    <section>
+                        <h2>Line Break</h2>
+                        <pre><code><script type="text/template">
+                            <p>This is a line<br>break</p>
+                        </script></code></pre>
+                        <p>This is a line<br>break</p>
+                    </section>
+                    <section>
+                        <h2>Blockquote</h2>
+                        <pre><code><script type="text/template">
+                            <blockquote><p>This is a quote</p></blockquote>
+                        </script></code></pre>
+                        <blockquote><p>This is a quote</p></blockquote>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>Lists</h1>
+                    </section>
+                    <section>
+                        <h2>List types</h2>
+                        <dl>
+                            <dt>Unordered List</dt>
+                            <dd>Collection of items in no particular order</dd>
+                            <dt>Ordered List</dt>
+                            <dd>Collection of items where order is important</dd>
+                            <dt>Description List</dt>
+                            <dd>List consisting of name an value pair</dd>
+                        </dl>
+                    </section>
+                    <section>
+                        <h2>Unordered Lists</h2>
+                        <pre><code><script type="text/template">
+                            <ul>
+                                <li>List item</li>
+                            </ul>
+                        </script></code></pre>
+                        <ul>
+                            <li>List item</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Ordered Lists</h2>
+                        <pre><code><script type="text/template">
+                            <ol>
+                                <li>List item</li>
+                            </ol>
+                        </script></code></pre>
+                        <ol>
+                            <li>List item</li>
+                        </ol>
+                    </section>
+                    <section>
+                        <h2>Ordered Lists</h2>
+                        <pre><code><script type="text/template">
+                            <ol start="7">
+                                <li>List item</li>
+                            </ol>
+                        </script></code></pre>
+                        <ol start="7">
+                            <li>List item</li>
+                        </ol>
+                    </section>
+                    <section>
+                        <h2>Description Lists</h2>
+                        <pre><code><script type="text/template">
+                            <dl>
+                                <dt>term or label</dt>
+                                <dd>A value, such as definition or description</dd>
+                            </dl>
+                        </script></code></pre>
+                        <dl>
+                            <dt>term or label</dt>
+                            <dd>A value, such as definition or description</dd>
+                        </dl>
+                    </section>
+                </section>
+                <section>
+                    <h2>Images</h2>
+                    <pre><code><script type="text/template">
+                        <img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
+                    </script></code></pre>
+                </section>
+                <section>
+                    <h1>Exercise Recipe</h1>
+                </section>
+                <section>
+                    <section>
+                        <h1>Generic Elements</h1>
+                    </section>
+                    <section>
+                        <h2>Generic Elements</h2>
+                        <dl>
+                            <dt>div</dt>
+                            <dd>Used to mark a division of content</dd>
+                            <dt>span</dt>
+                            <dd>Used to mark a division of a phrase or word</dd>
+                        </dl>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>Linking</h1>
+                    </section>
+                    <section>
+                        <h2>Anchor tag</h2>
+                        <pre><code><script type="text/template">
+                            <a href="url" >Displayed link content</a>
+                        </script></code></pre>
+                        <p><a href="url" >Displayed link content</a></p>
+                    </section>
+                    <section>
+                        <h2>Url Types</h2>
+                        <dl>
+                            <dt>Absolute</dt>
+                            <dd>Link to full url. Generally used for external sites (href="http://www.google.com")</dd>
+                            <dt>Relative</dt>
+                            <dd>Link to location relative to current document. Used for links on same site (href="recipes/tacos.html")</dd>
+                        </dl>
+                    </section>
+                    <section>
+                        <h2>Target</h2>
+                        <pre><code><script type="text/template">
+                            <a href="#" target="_blank">Displayed link content</a>
+                        </script></code></pre>
+                    </section>
+                    <section>
+                        <h2>Mail links</h2>
+                        <pre><code><script type="text/template">
+                            <a href="mailto:name@address.com" target="_blank">Email me</a>
+                        </script></code></pre>
+                        <a href="mailto:name@address.com" target="_blank">Email me</a>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>Id and Class</h1>
+                    </section>
+                    <section>
+                        <h2>Id</h2>
+                        <pre><code><script type="text/template">
+                            <a href="#" id="logo">Logo</a>
+                        </script></code></pre>
+                        <p>Id is a unique identifier meant to be applied to one item</p>
+                    </section>
+                    <section>
+                        <h2>Class</h2>
+                        <pre><code><script type="text/template">
+                            <h1 class="content-title"></h1>
+                        </script></code></pre>
+                        <p>Class is intended to be applied to multiple items in a conceptual group</p>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>Styling</h1>
+                    </section>
+                    <section>
+                        <h2>Rules</h2>
+                        <pre><code><script type="text/template">
+                            selector {property: value;}
+
+                            selector {
+                                property1: value1;
+                                property2: value2;
+                            }
+                        </script></code></pre>
+                    </section>
+                    <section>
+                        <h2>Styling Methods</h2>
+                        <ul>
+                            <li>External Stylesheets</li>
+                            <li>Embedded Stylesheets</li>
+                            <li>Inline Styles</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>External Stylesheets</h2>
+                        <pre><code><script type="text/template">
+                            <head>
+                                <link rel="stylesheet" href="url">
+                            </head>
+                        </script></code></pre>
+                    </section>
+                    <section>
+                        <h2>Embedded Stylesheets</h2>
+                        <pre><code><script type="text/template">
+                            <head>
+                                <style>
+                                    /* style rules here */
+                                </style>
+                            </head>
+                        </script></code></pre>
+                    </section>
+                    <section>
+                        <h2>Inline Styles</h2>
+                        <pre><code><script type="text/template">
+                            <h1 style="color: red">Title</h1>
+                        </script></code></pre>
+                    </section>
+                </section>
+
+            </div>
+        </div>
+
+        <script src="dist/reveal.js"></script>
+        <script src="plugin/notes/notes.js"></script>
+        <script src="plugin/markdown/markdown.js"></script>
+        <script src="plugin/highlight/highlight.js"></script>
+        <script>
+            // More info about initialization & config:
+            // - https://revealjs.com/initialization/
+            // - https://revealjs.com/config/
+            Reveal.initialize({
+                hash: true,
+
+                // Learn about plugins: https://revealjs.com/plugins/
+                plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+            });
+        </script>
+    </body>
+</html>
