@@ -27,6 +27,13 @@
                         </ul>
                     </section>
                     <section>
+                        <h2>Editor Plugins</h2>
+                        <ul>
+                            <li><a href="https://docs.emmet.io/cheat-sheet/">Emmet</a></li>
+                            <li><a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Live Server</a></li>
+                        </ul>
+                    </section>
+                    <section>
                         <h2>Email Testing</h2>
                         <ul>
                             <li><a href="https://www.emailonacid.com/" target="_blank">Email on Acid</a></li>
@@ -382,19 +389,306 @@
                             }
                         </script></code></pre>
                     </section>
-                    <section>
-                        <h2>Font Styling</h2>
-                        <ul>
-                            <li>font-family</li>
-                            <li>font-size</li>
-                            <li>font-weight</li>
-                            <li>font-style</li>
-                            <li>font-variant</li>
-                            <li>font</li>
-                        </ul>
-                    </section>
                 </section>
-
+                <section>
+                    <section>
+                    <h2>Font Styling</h2>
+                    <ul>
+                        <li>font-family</li>
+                        <li>font-size</li>
+                        <li>font-weight</li>
+                        <li>font-style</li>
+                        <li>font-variant</li>
+                        <li>font</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2><em>font-family</em></h2>
+                    <pre><code><script type="text/template">
+                        h1 {font-family: Helvetica;}
+                        h2 {font-family: Georgia, serif;}
+                        p {font-family: "Times New Roman", verdana, sans-serif;}
+                    </script></code></pre>
+                </section>
+                <section>
+                    <h2>font-size</h2>
+                    <ul>
+                        <li>Fixed Size: px, in, mm, cm, pt, pc, keywords(x-small, large, etc.)</li>
+                        <li>Relative Size: rem, em, vh, vw, %</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>font-weight</h2>
+                    <ul>
+                        <li>normal, bold, bolder, lighter, 100, 200, 300,... 900</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>font-style</h2>
+                    <ul>
+                        <li>normal & italics</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>line-height</h2>
+                    <ul>
+                        <li>number, percentage, normal</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>text-alignment</h2>
+                    <pre><code><script type="text/template">
+                        .lft {text-align: left;}
+                        .rt {text-align: right;}
+                        .ctr {text-align: center;}
+                        .jst {text-align: justify;}
+                    </script></code></pre>
+                </section>
+                <section>
+                <h2>text-transform</h2>
+                    <ul>
+                        <li>capitalize</li>
+                        <li>lowercase</li>
+                        <li>uppercase</li>
+                        <li>full-width</li>
+                        <li>none</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Custom Fonts</h2>
+                    <pre><code><script type="text/template">
+                    @font-face {
+                        font-family: 'MyWebFont';
+                        src: url('webfont.eot'); /* IE9 Compat Modes */
+                        src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+                             url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
+                             url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
+                             url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+                             url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+                      }
+                    </script></code></pre>
+                </section>
+            </section>
+            <section>
+                <section>
+                    <h2>list-style-type</h2>
+                    <p>none, disc, circle, square, decimal, decimal-leading-to-zero, lower-alpha, upper-alpha, lower-latin, lower-roman, upper-roman, lower-greek</p>
+                </section>
+                <section>
+                    <h2>list-style-position</h2>
+                    <p>inside or outside</p>
+                </section>
+                <section>
+                    <h2>list-style-image</h2>
+                    <pre><code><script type="text/template">
+                        ul {list-style-image: easter-egg.gif;}
+                    </script></code></pre>
+                </section>
+            </section>
+            <section>
+                <section>
+                <h2>Colors</h2>
+                <ul>
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value">By Name</a></li>
+                    <li>hexadecimal value (ie #FFFFFF, #FFF)</li>
+                    <li>RGBA - color: rgba(0,0,0,.1)</li>
+                    <li>HSL - color: hsl(265, 51%, 80%)</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Applying Color</h2>
+                <pre><code><script type="text/template">
+                    p {color: blue;}
+                    body {background-color: #000000;}
+                </script></code></pre>
+            </section>
+        </section>
+        <section>
+            <h2>Styling links</h2>
+            <pre><code><script type="text/template">
+                a {color: blue;}
+                a:visited {color: dark-blue;}
+                a:hover {text-decoration: none;}
+                a:focus {color: #000;}
+                a:active {background-color: white;}
+            </script></code></pre>
+        </section>
+        <section>
+            <h2>Background-image</h2>
+            <pre><code><script type="text/template">
+                body {
+                    background-image: url(texture.png);
+                    background-repeat: repeat-x;
+                    background-color: green;
+                    background-position: top center;
+                }
+            </script></code></pre>
+        </section>
+        <section>
+            <section>
+                <h1>The Box Model</h1>
+            </section>
+            <section>
+                <img src="imgs/box-model.png" alt="Diagram of Box Model">
+            </section>
+            <section>
+                <h2>box-sizing</h2>
+                <pre><code><script type="text/template">
+                    .box-a {
+                        box-sizing: content-box;
+                        width 500px;
+                        padding:15px;
+                    }
+                    .box-b {
+                        box-sizing: border-box;
+                        width: 500px;
+                        padding: 15px;
+                    }
+                </script></code></pre>
+            </section>
+            <section>
+            <h2>Padding</h2>
+            <pre><code><script type="text/template">
+                p {
+                    padding-top: 15px;
+                    padding-right: 15px;
+                    padding-bottom: 15px;
+                    padding-left: 15px;
+                    padding: 15px;
+                    padding: 15px 10px; /* tb rl */
+                    padding: 15px 10px 20px; /* t rl b */
+                    padding: 15px 10px 15px 10px; /* t r b l */
+                }
+            </script></code></pre>
+            </section>
+            <section>
+                <h2>Borders</h2>
+                <pre><code><script type="text/template">
+                    p {
+                        border: 1px;
+                        border-bottom: 3px;
+                        border-style: solid;
+                        border-top-stlye: dashed;
+                        border-color: #000000;
+                        border-top-color: blue;
+                        border: 2px dotted #000;    
+                    }
+                </script></code></pre>
+            </section>
+            <section>
+            <pre><code><script type="text/template">
+                p {
+                    border-top-right-radius: 20px 50px; /* horizontal vertical */
+                    border-radius: 20px / 50px; /* horizontal vertical */
+                }
+            </script></code></pre>
+            </section>
+            <section>
+                <h2>Margin</h2>
+                <pre><code><script type="text/template">
+                    p {
+                        margin-top: 15px;
+                        margin-right: 15px;
+                        margin-bottom: 15px;
+                        margin-left: 15px;
+                        margin: 15px;
+                        margin: 15px 10px; /* tb rl */
+                        margin: 15px 10px 20px; /* t rl b */
+                        margin: 15px 10px 15px 10px; /* t r b l */
+                    }
+                </script></code></pre>
+                </section>
+        </section>
+        <section>
+            <section>
+                <h1>Positioning</h1>
+            </section>
+            <section>
+                <h2>Float</h2>
+                <pre><code><script type="text/template">
+                    .img-rt {
+                        float: right;
+                    }
+                    .sidebar-left {
+                        float: left;
+                        width 150px;
+                    }
+                </script></code></pre>
+            </section>
+            <section>
+                <h2>position</h2>
+                <ul>
+                    <li>relative -Relative to where it should be in the normal flow</li>
+                    <li>absolute - Removed from normal flow and placed in a specific location</li>
+                    <li>fixed - removed from flow but remains in set relation to the viewport</li>
+                </ul>
+            </section>
+        </section>
+        <section>
+            <h2>Media Queries</h2>
+            <pre><code><script type="text/template">
+                @media screen and (min-width: 768px) {
+                .img-rt {
+                    float: right;
+                }
+            }
+            </script></code></pre>          
+        </section>
+        <section>
+            <section>
+                <h1>Tables</h1>
+            </section>
+            <section>
+                <h2>Tables</h2>
+                <ul>
+                    <li>Table</li>
+                    <li>Table Row</li>
+                    <li>Table Header</li>
+                    <li>Table Data</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Tables</h2>
+                <pre><code><script type="text/template">
+                    <table>
+                        <tr>
+                            <th>Item</th>
+                            <th>Calories</th>
+                            <th>Fat (g)</th>
+                        </tr>
+                        <tr>
+                            <td>Hamburger</td>
+                            <td>500</td>
+                            <td>50</td>
+                        </tr>
+                        <tr>
+                            <td>Salad</td>
+                            <td>250</td>
+                            <td>26</td>
+                        </tr>
+                    </table> 
+                </script></code></pre>
+            </section>
+            <section>
+                <table>
+                    <tr>
+                        <th>Item</th>
+                        <th>Calories</th>
+                        <th>Fat (g)</th>
+                    </tr>
+                    <tr>
+                        <td>Hamburger</td>
+                        <td>500</td>
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <td>Salad</td>
+                        <td>250</td>
+                        <td>26</td>
+                    </tr>
+                </table> 
+            </section>
+        </section>
             </div>
         </div>
 
