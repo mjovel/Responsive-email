@@ -19,5 +19,15 @@ Brand Colors
 White - #FFFFFF
 Blue - #0060BA
 Button - #0082CA
-Disclaimer - #9CA6AF
+Disclaimer & dividers - #9CA6AF
 Disclaimer Link - #008CE3
+
+
+-----------------
+https://github.com/mjovel/Responsive-email/blob/master/table-layouts/imgs/dhands-logo-white.png
+
+https://github.com/mjovel/Responsive-email/blob/master/table-layouts/imgs/success.png
+
+https://github.com/mjovel/Responsive-email/blob/master/table-layouts/imgs/iOS_app.png
+
+https://github.com/mjovel/Responsive-email/blob/master/table-layouts/imgs/Android_app.png
