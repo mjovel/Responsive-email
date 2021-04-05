@@ -68,3 +68,134 @@ a:visited{
     width: 100%;
     margin: 10px auto;
 }
+.main-column{
+    width: 100%;
+}
+.main-content {
+    padding: 15px;
+}
+.secondary-content {
+    padding: 15px;
+}
+#footer {
+    padding: 15px;
+    text-align: center;
+}
+
+/* style for classlist */
+
+.class-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+.class-list li {
+    display: block;
+    width: 100%;
+}
+.class {
+    max-width: 100%;
+    margin: 15px auto;
+    border: 1px solid #c3c5c6;
+    box-shadow: #c3c5c6 1px 1px;
+}
+.class-name {
+    font-size: 1.2em;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: normal;
+}
+.class img {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+/* buttons */
+.btn {
+    display: block;
+    padding: 15px 20px;
+    width: 80%;
+    background-color: #2d2926;
+    color: white;
+    text-align: center;
+    margin: 10px auto;
+    font-size: .8em;
+    font-weight: normal;
+    border-radius: 5px;
+
+}
+.btn:hover {
+    background-color: #eaebeb;
+    color: #2d2926;
+    text-decoration: none;
+}
+
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Utilities */
+.clear-fix {
+    overflow: auto;
+}
+.clear-fix::after {
+    content: "";
+    clear: both;
+    display:table;
+}
+
+
+@media screen and (min-width: 768px) {
+    .identity {
+        width: 40%;
+        float: left;
+    }
+    .primary-nav {
+        width: 60%;
+        float: left;
+    }
+    .primary-nav li {
+        display: inline-block;
+    }
+    .primary-nav a {
+        display: inline-block;
+        padding:20px 30px;
+    }
+    .class-list {
+        display: inline-block;
+        width: 45%;
+        margin-right: 15px;
+        margin-left:15px;
+    }
+    .class {
+        
+    }
+    .class-name {
+
+    }
+}
+@media screen and (min-width: 1200px) {
+    .main-column {
+        max-width: 1200px;
+        margin: 20px auto;
+    }
+    .main-content {
+        width: 66%;
+        float: right;
+        padding: 30px;
+    }
+    .secondary-content {
+        width: 33%;
+        float: right;
+        padding: 30px;
+    }
+    .class-list {
+        display: inline-block;
+        width: 30%;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+
