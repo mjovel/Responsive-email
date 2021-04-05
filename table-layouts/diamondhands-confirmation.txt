@@ -24,10 +24,10 @@ Disclaimer Link - #008CE3
 
 
 -----------------
-https://github.com/mjovel/Responsive-email/blob/master/table-layouts/imgs/dhands-logo-white.png
+https://github.com/mjovel/Responsive-email/blob/master/table-layouts/imgs/dhands-logo-white.png?raw=true
 
-https://github.com/mjovel/Responsive-email/blob/master/table-layouts/imgs/success.png
+https://github.com/mjovel/Responsive-email/blob/master/table-layouts/imgs/success.png?raw=true
 
-https://github.com/mjovel/Responsive-email/blob/master/table-layouts/imgs/iOS_app.png
+https://github.com/mjovel/Responsive-email/blob/master/table-layouts/imgs/iOS_app.png?raw=true
 
-https://github.com/mjovel/Responsive-email/blob/master/table-layouts/imgs/Android_app.png
+https://github.com/mjovel/Responsive-email/blob/master/table-layouts/imgs/Android_app.png?raw=true
