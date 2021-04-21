@@ -1,0 +1,59 @@
+<mjml>
+    <mj-head>
+        <mj-title>Local Legends</mj-title>
+        <mj-preview>
+            Spring 2021 Training is Here!
+        </mj-preview>
+        <mj-font name="Poppins" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" />
+        <mj-style>
+            @media screen and (max-width: 599.98px) {
+                body {
+                    background-color: yellow;
+                }
+            }
+        </mj-style>
+    </mj-head>
+    <mj-body>
+        <mj-section>
+            <mj-column width="600px">
+            <mj-image src="https://github.com/mjovel/Responsive-email/blob/master/responsive-layout/imgs/local-legends.png?raw=true" alt="logo" width="240px" align="center" />
+
+            </mj-column>
+        </mj-section>
+        <mj-hero mode="fixed-height" height="338px" background-width="600px" background-height="338px" background-url="https://github.com/mjovel/Responsive-email/blob/master/responsive-layout/imgs/mo-run.gif?raw=true" background-color="#2a3448" padding="100px 0px">
+            <mj-text padding="20px" color="#ffffff" font-family="Poppins, Helvetica, Arial, sans-serif" align="center" font-size="30px" line-height="30px" font-weight="700">
+                Spring 2021
+            </mj-text>
+        </mj-hero>
+        <mj-section>
+            <mj-column>
+                <mj-image src="https://github.com/mjovel/Responsive-email/blob/master/responsive-layout/imgs/marathon-runners.jpeg?raw=true" alt="Marathon Training" width="220px" height="180px" border-radius="4px" />
+                <mj-text font-size="25px" line-height="28px" font-weight="700" font-family="Poppins, Helvetica, Arial, sans-serif">
+            Marathon Training
+                </mj-text>
+                <mj-text font-size="18px" line-height="29px" font-family="Poppins, Helvetica, Arial, sans-serif">
+            Get ready to run your best in 2021! Training together can make all the difference. Register today for the 12 Week Spring Training camp.
+                </mj-text>
+                <mj-button background-color="#000000" color="#ffffff" border-radius="50px" font-family="Poppins, Helvetica, Arial, sans-serif">
+            Register
+                </mj-button>
+            
+            </mj-column>
+            <mj-column>
+                <mj-image src="https://github.com/mjovel/Responsive-email/blob/master/responsive-layout/imgs/trailrunner.jpeg?raw=true" alt="Trail Running" width="220px" height="180px" border-radius="4px" />
+                <mj-text font-size="25px" line-height="28px" font-weight="700" font-family="Poppins, Helvetica, Arial, sans-serif">
+            Trail Running
+                </mj-text>
+                <mj-text font-size="18px" line-height="29px" font-family="Poppins, Helvetica, Arial, sans-serif">
+            Trails, Community & Friendship—experience it all at our trail and ultra running camps.
+                </mj-text>
+                <mj-button background-color="#000000" color="#ffffff" border-radius="50px" font-family="Poppins, Helvetica, Arial, sans-serif">
+            Sign-up
+                </mj-button>
+            
+            </mj-column>
+            
+        </mj-section>
+        
+    </mj-body>
+</mjml>
